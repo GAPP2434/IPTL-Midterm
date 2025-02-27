@@ -21,7 +21,7 @@ Javascript and the many modules used. It also has Authentication which gives the
 ## Setup Instructions
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/IPTL-Midterm.git
+    git clone https://github.com/GAPP2434/IPTL-Midterm.git
     ```
 2. Navigate to the project directory:
     ```bash
