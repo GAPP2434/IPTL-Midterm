@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://cms-image-bucket-production-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com/images/4/9/1/0/47370194-3-eng-GB/Cropped-17096655012016-02-22T120000Z_204133023_GF10000316204_RTRMADP_3_PHILIPPINES-SM.JPG');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(70%); /* Adjust the brightness value as needed */
+    z-index: -1;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    display: block;
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    width: 30%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color:#3f20af;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #586edc;
+}
+
+header {
+    width: 100%;
+    padding: 10px 0;
+    background-color: white;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+footer {
+    width: 100%;
+    padding: 10px 0;
+    background-color: white;
+    color: black;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}

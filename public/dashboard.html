@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body onload="checkAuth()">
+    <header style="display: flex; justify-content: space-between; align-items: center;">
+        <div class="logo" style="margin-left: 20px; display: flex; align-items: center;">
+            <img src="sm.png" alt="SM" width="100px" height="100px">
+            <h1 style="color: black; font-size: 40px; margin-left: 10px;">SM SUPERMALLS</h1>
+        </div>
+        <div class="header-text" style="margin-right: 20px;">
+            <p style="color: black; font-size: 30px;">Home | Malls | Cyberzone | About</p>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Welcome to SM Supermalls!</h2>
+        <p id="user-email"></p>
+        <button onclick="logout()">Logout</button>
+    </div>
+    <footer>
+        <p>&copy; 2025 Gio Alexander P. Petalcurin</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
